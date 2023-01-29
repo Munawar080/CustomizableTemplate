@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/royal-preload.css" />
+    <link rel="stylesheet" href="css/contact-form.css">
 </head>
 
 <body class="royal_preloader">
@@ -319,8 +320,8 @@
                 <div class="container">
                     <div class="wpcf7">
                         <form action="freeaquote.php" method="POST" class="wpcf7-form">
-                            <div class="faq-form row">
-                                <p class="col-md-6 col-xs-12">
+                            <div class="faq-form row form-container">
+                                <!-- <p class="col-md-6 col-xs-12">
                                     <input type="url" name="website" class="wpcf7-form-control wpcf7-text" placeholder="Website URL *">
                                 </p>
                                 <p class="col-md-6 col-xs-12">
@@ -386,7 +387,46 @@
                                 </p>
                                 <p class="text-center">
                                     <button class="octf-btn octf-btn-icon octf-btn-primary">Send Message<i class="flaticon-right-arrow-1"></i></button>
-                                </p>
+                                </p> -->
+
+                                 <!-- Note :
+                                - You can modify the font style and form style to suit your website. 
+                                - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code. 
+                                - The Mandatory check script can modified as to suit your business needs. 
+                                - It is important that you test the modified form before going live.-->
+                                <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm form-parent-div'>
+                                    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                                    <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+                                    <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads5618741000000421023 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory5618741000000421023()' accept-charset='UTF-8'>
+                                <input type='text' style='display:none;' name='xnQsjsdp' value='92bbaebce7bf5c568bf93669a00741516f57e822d7981a12bb250c5dff3ef5fa'></input> 
+                                <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
+                                <input type='text' style='display:none;' name='xmIwtLD' value='04943501feacaf726720e7508ec4b42ec25d40ff57ae5b3543847c15ef52e3ab'></input> 
+                                <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+                                <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;allinoneemail.com&#x2f;thank-you.html' > </input>
+                                    <!-- Do not remove this code. -->
+                                
+                                <div class='wpcf7-form' align="center">
+                                    <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;' align="center">
+                                        <label for='First_Name'></label></div><div class='wpcf7-form'>
+                                            <input class="contact-inputs" type='text' id='First_Name' name='First Name' maxlength='40' placeholder="First Name *">
+                                        </input>
+                                        <div class='wpcf7-form'></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                                
+                                <div class='wpcf7-form' align="center"><div class='wpcf7-form' style='font-size:12px; font-family: Arial;' align="center"><label for='Last_Name'></label></div><div class='wpcf7-form'><input class="contact-inputs" type='text' id='Last_Name' name='Last Name' maxlength='80' placeholder="Last Name *"></input><div class='wpcf7-form'></div></div></div><br>
+                                
+                                <div class='wpcf7-form' align="center"><div class='wpcf7-form' style='font-size:12px; font-family: Arial;'><label for='Email'></label></div><div class='wpcf7-form'><input class="contact-inputs" type='text' ftype='email' id='Email' name='Email' maxlength='100' placeholder="Your Email *"></input><div class='zcwf_col_help'></div></div></div>
+                                <center>
+                                <div class='wpcf7-form' align="center"><div class='wpcf7-form' style='font-size:12px; font-family: Arial;' align="center"><label for='Description'><br></label></div><div class='wpcf7-form'>
+                                <textarea id='Description' name='Description' placeholder="Message..." ></textarea><div class='wpcf7-form'></div></div></div>
+                                
+                                <div class='wpcf7-form' align="center"><div class='wpcf7-form'></div><div class='wpcf7-form' align="center"><br>
+                                <button type='submit' id='formsubmit' class='octf-btn octf-btn-primary octf-btn-icon' value='Submit' title='Submit'>Send Message <i class="flaticon-right-arrow-1"></i></button></div></div>
+
+
                             </div>
                         </form>
                     </div>
