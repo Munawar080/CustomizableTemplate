@@ -6106,7 +6106,8 @@ object {
   color: #fe4c1c;
 }
 .icon-box-grid .icon-box:hover {
-  color: #606060;
+  /* color: #606060; */
+  color: #f0f00f;
   background: #fff;
 }
 .icon-box-grid .icon-box:hover h5 {
@@ -6116,7 +6117,8 @@ object {
   color: #1a1b1e;
 }
 .icon-box-grid .icon-box:hover .icon-main {
-  color: #0160e7;
+  /* color: #0160e7; */
+  color: #00c3ff;
 }
 
 .team-wrap {
@@ -6505,7 +6507,7 @@ object {
   color: #fff;
 }
 .ot-tabs .tab-link.current, .ot-tabs .tab-link:hover {
-  background: #00c3ff;
+  background: #ff0080;
   color: #fff;
   font-weight: 600;
   box-shadow: 8px 8px 18px 0px rgba(42, 67, 113, 0.3);
