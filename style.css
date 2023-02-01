@@ -6111,7 +6111,8 @@ object {
   background: #fff;
 }
 .icon-box-grid .icon-box:hover h5 {
-  color: #1a1b1e;
+  /* color: #1a1b1e; */
+  color: #f0f00f;
 }
 .icon-box-grid .icon-box:hover h5 a {
   color: #1a1b1e;

@@ -36,6 +36,13 @@
     float: none;
 }
 
+.section-b420{
+    padding: 0;
+}
+
+.segmentation-margin{
+    margin: 0;
+}
 
 
 @media only screen and (max-width: 768px) {
