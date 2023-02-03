@@ -244,8 +244,8 @@
                                     <h2 class="main-heading">Not Found Your Answer? Just Ask Us!</h2>
                                 </div>
                                 <form action="faq.php" method="POST" class="wpcf7-form">
-                                    <div class="faq-form row">
-                                        <p class="col-md-6 col-xs-12">
+                                    <div class="faq-form row form-container">
+                                        <!-- <p class="col-md-6 col-xs-12">
                                             <span class="wpcf7-form-control-wrap your-name">
                                                 <input type="text" name="name" class="form-control" placeholder="Your Name *" required="">
                                             </span>
@@ -267,7 +267,35 @@
                                            </p>
                                         <p class="col-md-12 col-xs-12 text-center">   
                                             <button type="submit" class="octf-btn octf-btn-icon octf-btn-primary">Send Message<i class="flaticon-right-arrow-1"></i></button>
-                                        </p>
+                                        </p> -->
+
+                                         <!-- Note :
+                                        - You can modify the font style and form style to suit your website. 
+                                        - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code. 
+                                        - The Mandatory check script can modified as to suit your business needs. 
+                                        - It is important that you test the modified form before going live.-->
+                                        <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm faq-form-parent-div'>
+                                            <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                                            <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+                                            <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads5618741000000449002 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory5618741000000449002()' accept-charset='UTF-8'>
+                                        <input type='text' style='display:none;' name='xnQsjsdp' value='92bbaebce7bf5c568bf93669a00741516f57e822d7981a12bb250c5dff3ef5fa'></input> 
+                                        <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
+                                        <input type='text' style='display:none;' name='xmIwtLD' value='04943501feacaf726720e7508ec4b42eb71b05274c53e44a961e121e56c026b7'></input> 
+                                        <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+                                        <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;allinoneemail.com&#x2f;thank-you.html' > </input>
+                                            <!-- Do not remove this code. -->
+
+                                        <div class='wpcf7-form'><div class='faq-form ' style='font-size:12px; font-family: Arial;'><label for='First_Name'></label></div><div class='faq-form'><input class="contact-inputs" type='text' id='First_Name' name='First Name' maxlength='40' placeholder="First Name *"></input><div class='faq-form'></div></div></div><br>
+
+                                        <div class='zcwf_row' style="margin: 0;"><div class='wpcf7-form' style='font-size:12px; font-family: Arial;'><label for='Last_Name'></label></div><div class='wpcf7-form'><input class="contact-inputs" type='text' id='Last_Name' name='Last Name' maxlength='80' placeholder="Last Name *"></input><div class='wpcf7-form'></div></div></div><br>
+
+                                        <div class='wpcf7-form'><div class='wpcf7-form' style='font-size:12px; font-family: Arial;'><label for='Email'></label></div><div class='wpcf7-form'><input class="contact-inputs" type='text' ftype='email' id='Email' name='Email' maxlength='100' placeholder="Your Email *"></input><div class='zcwf_col_help'></div></div></div>
+                                        <center>
+                                        <div class='wpcf7-form' align="center"><div class='wpcf7-form' style='font-size:12px; font-family: Arial;' align="center"><label for='Description'><br></label></div><div class='wpcf7-form'>
+                                        <textarea id='Description' name='Description' placeholder="Message..." ></textarea><div class='wpcf7-form'></div></div></div>
+
+                                        <div class='zcwf_row' align="center"><div class='zcwf_col_lab'></div><div class='zcwf_col_fld' align="center"  style="width: auto;"><br>
+                                        <button type='submit' id='formsubmit' class='octf-btn octf-btn-primary octf-btn-icon' value='Submit' title='Submit'>Send Message <i class="flaticon-right-arrow-1"></i></button></div></div>
                                     </div>
                                 </form>
                             </div>
@@ -433,3 +461,155 @@
         });
     })(jQuery);
 </script> 
+
+<style>
+    html,body{
+        margin: 0px;
+    }
+    #crmWebToEntityForm.zcwf_lblLeft {
+        width:100%;
+        padding: 25px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    #crmWebToEntityForm.zcwf_lblLeft * {
+        box-sizing: border-box;
+    }
+    #crmWebToEntityForm{text-align: left;}
+    #crmWebToEntityForm * {
+        direction: ltr;
+    }
+    .zcwf_lblLeft .zcwf_title {
+        word-wrap: break-word;
+        padding: 0px 6px 10px;
+        font-weight: bold;
+    }
+    .zcwf_lblLeft .zcwf_col_fld input[type=text], .zcwf_lblLeft .zcwf_col_fld textarea {
+        width: 60%;
+        border: 1px solid #c0c6cc !important;
+        resize: vertical;
+        border-radius: 2px;
+        float: left;
+    }
+    .zcwf_lblLeft .zcwf_col_lab {
+        width: 30%;
+        word-break: break-word;
+        padding: 0px 6px 0px;
+        margin-right: 10px;
+        margin-top: 5px;
+        float: left;
+        min-height: 1px;
+    }
+    .zcwf_lblLeft .zcwf_col_fld {
+        float: left;
+        width: 68%;
+        padding: 0px 6px 0px;
+        position: relative;
+        margin-top: 5px;
+    }
+    .zcwf_lblLeft .zcwf_privacy{padding: 6px;}
+    .zcwf_lblLeft .wfrm_fld_dpNn{display: none;}
+    .dIB{display: inline-block;}
+    .zcwf_lblLeft .zcwf_col_fld_slt {
+        width: 60%;
+        border: 1px solid #ccc;
+        background: #fff;
+        border-radius: 4px;
+        font-size: 12px;
+        float: left;
+        resize: vertical;
+        padding: 2px 5px;
+    }
+    .zcwf_lblLeft .zcwf_row:after, .zcwf_lblLeft .zcwf_col_fld:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .zcwf_lblLeft .zcwf_col_help {
+        float: left;
+        margin-left: 7px;
+        font-size: 12px;
+        max-width: 35%;
+        word-break: break-word;
+    }
+    .zcwf_lblLeft .zcwf_help_icon {
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background: #fff;
+        border: 1px solid #c0c6cc;
+        color: #c1c1c1;
+        text-align: center;
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: bold;
+        border-radius: 50%;
+    }
+    .zcwf_lblLeft .zcwf_row {margin: 15px 0px;}
+    .zcwf_lblLeft .formsubmit {
+        margin-right: 5px;
+        cursor: pointer;
+        color: var(--baseColor);
+        font-size: 12px;
+    }
+    .zcwf_lblLeft .zcwf_privacy_txt {
+        width: 90%;
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+        font-family: Arial;
+        display: inline-block;
+        vertical-align: top;
+        color: var(--baseColor);
+        padding-top: 2px;
+        margin-left: 6px;
+    }
+    .zcwf_lblLeft .zcwf_button {
+        font-size: 12px;
+        color: var(--baseColor);
+        border: 1px solid #c0c6cc;
+        padding: 3px 9px;
+        border-radius: 4px;
+        cursor: pointer;
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .zcwf_lblLeft .zcwf_tooltip_over{
+        position: relative;
+    }
+    .zcwf_lblLeft .zcwf_tooltip_ctn{
+        position: absolute;
+        background: #dedede;
+        padding: 3px 6px;
+        top: 3px;
+    
+        border-radius: 4px;word-break: break-word;
+        min-width: 100px;
+        max-width: 150px;
+        color: var(--baseColor);
+        z-index: 100;
+    }
+    .zcwf_lblLeft .zcwf_ckbox{
+        float: left;
+    }
+    .zcwf_lblLeft .zcwf_file{
+        width: 55%;
+        box-sizing: border-box;
+        float: left;
+    }
+    .clearB:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+    @media all and (max-width: 600px) {
+        .zcwf_lblLeft .zcwf_col_lab, .zcwf_lblLeft .zcwf_col_fld {
+            width: auto;
+            float: none !important;
+        }
+        .zcwf_lblLeft .zcwf_col_help {width: 40%;}
+    }
+    </style>
+    
